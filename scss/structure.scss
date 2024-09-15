@@ -1,0 +1,35 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%;
+ 
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px
+}
+
+nav {
+    height: 50px;
+    background-color:#2e6cd7;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+
+nav .image{
+    background-image: url(../images/icons8-home-50.png);
+    height: 35px;
+    width: 35px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
