@@ -31,5 +31,446 @@ nav .image {
 
 nav a {
   text-decoration: none;
-  color: whitesmoke;
+  color: rgb(247, 220, 225);
+}
+
+footer {
+  height: 200px;
+  background-color: #2e6cd7;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  color: rgb(247, 220, 225);
+  font-size: 17px;
+}
+
+footer .logo {
+  font-size: 23px;
+  font-style: italic;
+}
+
+.estate-holder {
+  height: 900px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-image: url(../images/real-estate.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  color: #2e6cd7;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 70px;
+  text-decoration: underline;
+}
+.estate-holder .estate-text {
+  font-size: 30px;
+}
+
+.estate-text-holder {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #347ac1;
+  height: 300px;
+  max-width: 100%;
+}
+.estate-text-holder .estate-holder1 {
+  width: 250px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.estate-text-holder .estate-holder1 .estate-header {
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: rgb(247, 220, 225);
+  font-weight: bold;
+}
+.estate-text-holder .estate-holder1 .estate-text {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  color: lightgrey;
+  padding-top: 10px;
+}
+.estate-text-holder .estate-holder2 {
+  width: 250px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.estate-text-holder .estate-holder2 .estate-header {
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: rgb(247, 220, 225);
+  font-weight: bold;
+}
+.estate-text-holder .estate-holder2 .estate-text {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  color: lightgrey;
+  padding-top: 10px;
+}
+.estate-text-holder .estate-holder3 {
+  width: 250px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.estate-text-holder .estate-holder3 .estate-header {
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: rgb(247, 220, 225);
+  font-weight: bold;
+}
+.estate-text-holder .estate-holder3 .estate-text {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 20px;
+  color: lightgrey;
+  padding-top: 10px;
+}
+
+.prop-holder {
+  height: 900px;
+  background-color: #347ac1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prop-holder .houses {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.prop-holder .houses .house1 {
+  height: 600px;
+  width: 600px;
+  background-color: black;
+  border-color: rgb(247, 220, 225);
+  border-width: 3px;
+  border-style: solid;
+  background-image: url(../images/first-house.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.prop-holder .houses .house2 {
+  height: 600px;
+  width: 600px;
+  background-color: black;
+  border-color: rgb(247, 220, 225);
+  border-width: 3px;
+  border-style: solid;
+  background-image: url(../images/second-house.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.prop-holder .houses .house3 {
+  height: 600px;
+  width: 600px;
+  background-color: black;
+  border-color: rgb(247, 220, 225);
+  border-width: 3px;
+  border-style: solid;
+  background-image: url(../images/third-house.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.house-holder {
+  height: 500px;
+  background-color: rgb(247, 220, 225);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.house-holder .info-holder {
+  width: 100%;
+  height: 250px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+}
+.house-holder .info-holder .info1 {
+  width: 250px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.house-holder .info-holder .info1 .price {
+  font-size: 35px;
+  color: gray;
+}
+.house-holder .info-holder .info1 .about {
+  font-size: 25px;
+  text-align: center;
+  color: gray;
+}
+.house-holder .info-holder .info1 .loc {
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  font-style: italic;
+}
+
+.agent-holder {
+  width: 100%;
+  background-color: black;
+  height: 1000px;
+  display: flex;
+  margin: 0 auto;
+  background-color: #347ac1;
+}
+.agent-holder .left {
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.agent-holder .left .agent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  height: 400px;
+  background-color: black;
+}
+.agent-holder .left .agent .agent1-photo {
+  background-image: url(../images/agent`.jpg);
+  height: 400px;
+  width: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.agent-holder .left .agent .agent2-photo {
+  background-image: url(../images/agent2.jpg);
+  height: 400px;
+  width: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.agent-holder .left .agent .agent-text {
+  color: rgb(247, 220, 225);
+  text-align: center;
+  font-size: 20px;
+  padding-right: 10px;
+}
+.agent-holder .right {
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.agent-holder .right .agent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 700px;
+  height: 400px;
+  background-color: black;
+}
+.agent-holder .right .agent .agent3-photo {
+  background-image: url(../images/agent3.jpg);
+  height: 400px;
+  width: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.agent-holder .right .agent .agent4-photo {
+  background-image: url(../images/agent5.jpg);
+  height: 400px;
+  width: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.agent-holder .right .agent .agent-text {
+  color: rgb(247, 220, 225);
+  text-align: center;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.contact {
+  height: 900px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact-header h1 {
+  padding-top: 100px;
+  font-size: 50px;
+  color: rgb(247, 220, 225);
+  text-decoration: underline;
+  justify-content: center;
+}
+.contact .contact-holder {
+  display: flex;
+  width: 700px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.contact .contact-holder .holder {
+  height: 100%;
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.contact .contact-holder .holder .nInput {
+  width: 100%;
+}
+.contact .contact-holder .holder .nInput input {
+  font-size: 20px;
+  border-style: solid;
+  background-color: #347ac1;
+  border-color: rgb(247, 220, 225);
+  min-width: 100%;
+  height: 100px;
+  padding-left: 10px;
+  border-radius: 50px;
+}
+.contact .contact-holder .holder .nInput ::placeholder {
+  padding: 20px;
+  color: rgb(247, 220, 225);
+}
+.contact .contact-holder .holder .eInput {
+  padding-top: 21px;
+  min-width: 100%;
+}
+.contact .contact-holder .holder .eInput input {
+  color: rgb(247, 220, 225);
+  font-size: 20px;
+  background-color: #347ac1;
+  border-style: solid;
+  border-color: rgb(247, 220, 225);
+  min-width: 100%;
+  height: 100px;
+  padding-left: 10px;
+  border-radius: 50px;
+}
+.contact .contact-holder .holder .eInput ::placeholder {
+  padding: 20px;
+  color: rgb(247, 220, 225);
+}
+.contact .contact-holder .holder .cInput {
+  padding-top: 21px;
+  min-width: 100%;
+}
+.contact .contact-holder .holder .cInput input {
+  color: rgb(247, 220, 225);
+  font-size: 20px;
+  border-style: solid;
+  background-color: #347ac1;
+  border-color: rgb(247, 220, 225);
+  min-width: 100%;
+  height: 100px;
+  padding-left: 10px;
+  border-radius: 50px;
+}
+.contact .contact-holder .holder .cInput ::placeholder {
+  padding: 20px;
+  color: rgb(247, 220, 225);
+}
+.contact .contact-holder .holder .mInput {
+  padding-top: 21px;
+  position: relative;
+  min-width: 100%;
+}
+.contact .contact-holder .holder .mInput input {
+  color: rgb(247, 220, 225);
+  font-size: 20px;
+  border-style: solid;
+  border-color: rgb(247, 220, 225);
+  min-width: 100%;
+  background-color: #347ac1;
+  height: 60px;
+  padding-left: 10px;
+  border-radius: 50px;
+  height: 250px;
+}
+.contact .contact-holder .holder .mInput ::placeholder {
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  color: rgb(247, 220, 225);
+}
+.contact .contact-holder .holder .send {
+  margin-top: 21px;
+  width: 167px;
+  height: 60px;
+  padding-top: 12px;
+  background-color: #347ac1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "Gill Sans";
+  color: rgb(247, 220, 225);
+  font-size: 20px;
+  border-radius: 20px;
+}
+.contact .contact-holder .holder .send a {
+  color: rgb(247, 220, 225);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.about {
+  height: 400px;
+  background-color: #347ac1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about .info-holder {
+  height: 100%;
+  width: 400px;
+}
+.about .info-holder .info {
+  padding-top: 20px;
+  color: rgb(247, 220, 225);
+  font-size: 30px;
+  text-align: center;
+}
+.about .info-holder .info2 {
+  padding-top: 20px;
+  color: rgb(247, 220, 225);
+  font-size: 30px;
+  text-align: center;
 }

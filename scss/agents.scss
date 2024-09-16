@@ -1,0 +1,88 @@
+.agent-holder{
+    width: 100%;
+    background-color: black;
+    height: 1000px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #347ac1;
+    .left{
+        width: 50%;
+        height: 100%;
+        // background-color: yellow;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+        .agent{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 700px;
+            height: 400px;
+            background-color: black;
+            .agent1-photo{
+                background-image: url(../images/agent`.jpg);
+                height: 400px;
+                width: 250px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .agent2-photo{
+                background-image: url(../images/agent2.jpg);
+                height: 400px;
+                width: 250px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .agent-text{
+                color: rgb(247, 220, 225);
+                text-align: center;
+                font-size: 20px;
+                padding-right: 10px;
+            }
+        }
+    }
+    .right{
+        width: 50%;
+        height: 100%;
+        // background-color: green;
+        justify-content: space-around;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        .agent{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 700px;
+            height: 400px;
+            background-color: black;
+            .agent3-photo{
+                background-image: url(../images/agent3.jpg);
+                height: 400px;
+                width: 250px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .agent4-photo{
+                background-image: url(../images/agent5.jpg);
+                height: 400px;
+                width: 250px;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .agent-text{
+                color: rgb(247, 220, 225);
+                text-align: center;
+                font-size: 20px;
+                padding-right: 10px;
+            }
+        }
+    }
+
+}

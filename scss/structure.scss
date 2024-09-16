@@ -31,5 +31,23 @@ nav .image{
 }
 nav a {
     text-decoration: none;
-    color: whitesmoke;
+    color: rgb(247, 220, 225)
+}
+
+footer{
+    height: 200px;
+    background-color: #2e6cd7;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: rgb(247, 220, 225);
+    font-size: 17px;
+
+}
+
+footer .logo{
+    font-size: 23px;
+    font-style: italic;
 }

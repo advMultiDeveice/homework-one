@@ -1,0 +1,130 @@
+.estate-holder{
+    height: 900px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url(../images/real-estate.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    color:#2e6cd7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 70px;
+    text-decoration: underline;
+    .estate-text{
+        font-size: 30px;
+        
+    }
+    
+}
+
+.estate-text-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #347ac1;
+    height: 300px;
+    max-width: 100%;
+    .estate-holder1{
+        width: 250px;
+        height: 100%;
+        // background-color: yellow;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        .estate-header{
+            // height: 100%;
+            // width: 100%;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            color: rgb(247, 220, 225);
+            font-weight: bold;
+            
+            
+        }
+        .estate-text{
+                
+            // height: 100%;
+            // width: 100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-size: 20px;
+            color: lightgrey;
+            padding-top: 10px;
+
+
+        }
+    }
+    .estate-holder2{
+        width: 250px;
+        height: 100%;
+        // background-color: yellow;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        .estate-header{
+            // height: 100%;
+            // width: 100%;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            color: rgb(247, 220, 225);
+            font-weight: bold;
+            
+            
+        }
+        .estate-text{
+                
+            // height: 100%;
+            // width: 100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-size: 20px;
+            color: lightgrey;
+            padding-top: 10px;
+
+
+        }
+    }
+    .estate-holder3{
+        width: 250px;
+        height: 100%;
+        // background-color: yellow;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        .estate-header{
+            // height: 100%;
+            // width: 100%;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            color: rgb(247, 220, 225);
+            font-weight: bold;
+            
+            
+        }
+        .estate-text{
+                
+            // height: 100%;
+            // width: 100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            font-size: 20px;
+            color: lightgrey;
+            padding-top: 10px;
+
+
+        }
+    }
+}

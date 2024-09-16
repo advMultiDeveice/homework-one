@@ -1,19 +1,24 @@
-import {  } from "../model/model.js";
+// import * as MODEL from "../model/model.js"
+
+import {loadPage } from "../model/model.js";
 
 
-changeRoute = () => {
-    let hashTag = window.location.hash;
-    let pageID = hashtag.replace('#', '');
-
+function changeRoute() {
+let hashTag = window.location.hash;
+let pageID = hashTag.replace('#', '');
+// console.log(hashTag + ' ' + pageID);
     loadPage(pageID);
+
+
 }
 
-
-initURLListener = () => { 
-    $(window).on('hashcahnge', changeRoute);
-    changeRoute;
+function initURLListener() {
+    $(window).on('hashchange', changeRoute);
+    changeRoute();
 }
 
 $(document).ready(function () {
-    loadPage("home");
-})
+    loadPage("home")
+    initURLListener();
+    //initListeners();
+});
